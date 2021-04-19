@@ -1088,5 +1088,75 @@
     "gradeReq": 11,
     "prestige" : 3,
     "sem": "second"
+  },
+  "Concert Band": {
+    "name": "Concert Band",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Chamber Orchestra": {
+    "name": "Chamber Orchestra",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Concert Choir": {
+    "name": "Concert Choir",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "AP Music Theory": {
+    "name": "AP Music Theory",
+    "pre": [["Concert Band", "Chamber Orchestra", "Concert Choir", "Music Appreciation", "Digital Music"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Music Appreciation": {
+    "name": "Music Appreciation",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Digital Music": {
+    "name": "Digital Music",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "second"
+  },
+  "Double Concentration: Choir and Orchestra": {
+    "name": "Double Concentration: Choir and Orchestra",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
   }
  }
