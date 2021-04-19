@@ -1318,5 +1318,35 @@
     "gradeReq": 11,
     "prestige" : 1,
     "sem": "first"
+  },
+  "Drawing and Painting 1a": {
+    "name": "Drawing and Painting 1a",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Drawing and Painting 1b": {
+    "name": "Drawing and Painting 1b",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "second"
+  },
+  "Drawing and Painting 2": {
+    "name": "Drawing and Painting 2",
+    "pre": [["Drawing and Painting 1a", "Drawing and Painting 1b"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
   }
  }
