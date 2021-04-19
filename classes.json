@@ -1348,5 +1348,115 @@
     "gradeReq": 9,
     "prestige" : 2,
     "sem": "year"
-  }
+  },
+  "Advanced Studio Art": {
+    "name": "Advanced Studio Art",
+    "pre": [["Drawing and Painting 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP Studio Art": {
+    "name": "AP Studio Art",
+    "pre": [["Advanced Studio Art"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "3D Studio Art 1": {
+    "name": "3D Studio Art 1",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "half"
+  },
+  "3D Studio Art 2": {
+    "name": "3D Studio Art 2",
+    "pre": [["3D Studio Art 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Advanced 3D Studio Art": {
+    "name": "Advanced 3D Studio Art",
+    "pre": [["3D Studio Art 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP 3D Studio Art": {
+    "name": "AP 3D Studio Art",
+    "pre": [["Advanced 3D Studio Art"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "Foundations of Photography": {
+    "name": "Foundations of Photography",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "half"
+  },
+  "Black and White Photography": {
+    "name": "Black and White Photography",
+    "pre": [["Foundations of Photography"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Digital Photography": {
+    "name": "Digital Photography",
+    "pre": [["Foundations of Photography"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Digital Photography Studio": {
+    "name": "Digital Photography Studio",
+    "pre": [["Digital Photography"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "half"
+  },
+  "Black and White Photography Studio": {
+    "name": "Black and White Photography Studio",
+    "pre": [["Black and White Photography"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "half"
+  },
  }
