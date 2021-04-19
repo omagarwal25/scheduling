@@ -1268,5 +1268,55 @@
     "gradeReq": 10,
     "prestige" : 2,
     "sem": "half"
+  },
+  "Peer Leadership": {
+    "name": "Peer Leadership",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 12,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Peer Leadership (Year)": {
+    "name": "Peer Leadership (Year)",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 12,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Teaching Apprenticeship": {
+    "name": "Teaching Apprenticeship",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 12,
+    "prestige" : 1,
+    "sem": "second"
+  },
+  "Advanced Independent Research Colloquium": {
+    "name": "Advanced Independent Research Colloquium",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 11,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Community Action Seminar": {
+    "name": "Community Action Seminar",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 11,
+    "prestige" : 1,
+    "sem": "first"
   }
  }
