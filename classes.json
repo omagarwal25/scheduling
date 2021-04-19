@@ -1031,12 +1031,52 @@
   },
   "Race and Culture": {
     "name": "Race and Culture",
+    "pre": [["World Civilization 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 10,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "Topics in Government and Law": {
+    "name": "Topics in Government and Law",
+    "pre": [["World Civilization 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 10,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Topics in Government and Law": {
+    "name": "Topics in Government and Law",
     "pre": [["World Civilization 2"]],
     "con": [0],
     "post": [0],
-    "credits": ["Social Studies", "Art"],
+    "credits": ["Social Studies"],
+    "gradeReq": 10,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Contemporary Global History": {
+    "name": "Contemporary Global History",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
     "gradeReq": 11,
     "prestige" : 3,
     "sem": "first"
+  },
+  "Global Issues": {
+    "name": "Global Issues",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
   }
  }
