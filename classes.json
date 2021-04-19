@@ -1208,5 +1208,145 @@
     "gradeReq": 9,
     "prestige" : 1,
     "sem": "half"
+  },
+  "Well-being 9": {
+    "name": "Well-being 9",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["PE"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Health: Well-being 10": {
+    "name": "Health: Well-being 10",
+    "pre": [["Well-being 9"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["PE"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Physical Education 2: Well-being 10": {
+    "name": "Physical Education 2: Well-being 10",
+    "pre": [["Well-being 9"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["PE"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Sports Leadership: Well-being 10": {
+    "name": "Sports Leadership: Well-being 10",
+    "pre": [["Well-being 9"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["PE"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "second"
+  },
+  "Lifetime Fitness: Well-being 10": {
+    "name": "Lifetime Fitness: Well-being 10",
+    "pre": [["Well-being 9"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["PE"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Dance: Well-being 10": {
+    "name": "Dance: Well-being 10",
+    "pre": [["Well-being 9"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["PE", "Art"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Peer Leadership": {
+    "name": "Peer Leadership",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 12,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Peer Leadership (Year)": {
+    "name": "Peer Leadership (Year)",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 12,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Teaching Apprenticeship": {
+    "name": "Teaching Apprenticeship",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 12,
+    "prestige" : 1,
+    "sem": "second"
+  },
+  "Advanced Independent Research Colloquium": {
+    "name": "Advanced Independent Research Colloquium",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 11,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Community Action Seminar": {
+    "name": "Community Action Seminar",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Extra"],
+    "gradeReq": 11,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Drawing and Painting 1a": {
+    "name": "Drawing and Painting 1a",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Drawing and Painting 1b": {
+    "name": "Drawing and Painting 1b",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "second"
+  },
+  "Drawing and Painting 2": {
+    "name": "Drawing and Painting 2",
+    "pre": [["Drawing and Painting 1a", "Drawing and Painting 1b"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
   }
  }
