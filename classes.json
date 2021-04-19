@@ -1178,5 +1178,35 @@
     "gradeReq": 9,
     "prestige" : 2,
     "sem": "year"
+  },
+  "Acting: Character, Movement and Voice": {
+    "name": "Acting: Character, Movement and Voice",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Acting: Physical Theater": {
+    "name": "Acting: Physical Theater",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "second"
+  },
+  "Dance": {
+    "name": "Dance",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "PE"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "half"
   }
  }
