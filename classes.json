@@ -1158,5 +1158,25 @@
     "gradeReq": 9,
     "prestige" : 1,
     "sem": "year"
+  },
+  "Acting": {
+    "name": "Acting",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Advanced Acting: Play Production": {
+    "name": "Advanced Acting: Play Production",
+    "pre": [["Acting"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
   }
  }
