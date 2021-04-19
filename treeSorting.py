@@ -39,14 +39,15 @@ def getAllPrimaryPre(name, tree, parent_name):
     a = tree
     x = name
     for i in returnPre(x):
-        if a.get_node(i) == 0:
-            a.create_node(i, i, parent = parent_name)
-            new_parent_name = i
-        else:
-            a.create_node(i, i + parent_name, parent = parent_name)
-            new_parent_name = i + parent_name
-        if returnPre(i)[0] != 0:
-            getAllPrimaryPre(i, a, new_parent_name)
+        if i != 0:
+            if a.get_node(i) == 0:
+                a.create_node(i, i, parent = parent_name)
+                new_parent_name = i
+            else:
+                a.create_node(i, i + parent_name, parent = parent_name)
+                new_parent_name = i + parent_name
+            if returnPre(i)[0] != 0:
+                getAllPrimaryPre(i, a, new_parent_name)
 
 def turnTreeLeaves(l):
     """
@@ -87,6 +88,3 @@ def findHighestPres(cleanedUpTree):
             highestOutputPres = currentPres
             highestOutput = i
     return highestOutput
-
-
-
