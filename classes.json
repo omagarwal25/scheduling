@@ -189,8 +189,8 @@
     "prestige" : 4,
     "sem": "year"
   },
-  "AP Enviormental Science": {
-    "name": "AP Enviormental Science",
+  "AP Environmental Science": {
+    "name": "AP Environmental Science",
     "pre": [["Science 10"], ["Algebra 2", "Algebra 2 with Trigonometry"]],
     "con": [0],
     "post": [0],
@@ -229,8 +229,8 @@
     "prestige" : 5,
     "sem": "year"
   },
-  "Ecology: Enviormental Studies": {
-    "name": "Ecology: Enviormental Studies",
+  "Ecology: Environmental Studies": {
+    "name": "Ecology: Environmental Studies",
     "pre": [["Science 10"]],
     "con": [0],
     "post": [0],
@@ -241,7 +241,7 @@
   },
   "Ecology: Expeditions": {
     "name": "Ecology: Expeditions",
-    "pre": [["Ecology: Enviormental Studies"]],
+    "pre": [["Ecology: Environmental Studies"]],
     "con": [0],
     "post": [0],
     "credits": ["Science"],
@@ -289,8 +289,8 @@
     "prestige" : 4,
     "sem": "second"
   },
-  "Topics in Physics: The Engineered Enviorment": {
-    "name": "Topics in Physics: The Engineered Enviorment",
+  "Topics in Physics: The Engineered Environment": {
+    "name": "Topics in Physics: The Engineered Environment",
     "pre": [["Science 10"]],
     "con": [0],
     "post": [0],
@@ -308,5 +308,735 @@
     "gradeReq": 11,
     "prestige" : 4,
     "sem": "second"
-  }
-}
+  },
+  "Astrophysics": {
+    "name": "Astrophysics",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "first"
+  },
+  "Earth, Planets and Space Exploration": {
+    "name": "Earth, Planets and Space Exploration",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "second"
+  },
+  "Beginning Journalism": {
+    "name": "Beginning Journalism",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Advanced Journalism": {
+    "name": "Advanced Journalism",
+    "pre": [["Beginning Journalism"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Advanced Journalism: Editors": {
+    "name": "Advanced Journalism: Editors",
+    "pre": [["Advanced Journalism"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "English 9": {
+    "name": "English 9",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "English 10": {
+    "name": "English 10",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "American Literature": {
+    "name": "American Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "half"
+  },
+  "Asian Literature": {
+    "name": "Asian Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "British Literature": {
+    "name": "British Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "Craft of Writing": {
+    "name": "Craft of Writing",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Dramatic Literature and Performance": {
+    "name": "Dramatic Literature and Performance",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Gender in Literature": {
+    "name": "Gender in Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Individual and Society in Literature": {
+    "name": "Individual and Society in Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Literature and Film": {
+    "name": "Literature and Film",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "half"
+  },
+  "Literacy Non-fiction": {
+    "name": "Literacy Non-fiction",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Literature and Art": {
+    "name": "Literature and Art",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Middle Eastern, Afghan and Pakstani Literature": {
+    "name": "Middle Eastern, Afghan and Pakstani Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Mythology": {
+    "name": "Mythology",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "Poetry": {
+    "name": "Poetry",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "half"
+  },
+  "Post-colonial Literature": {
+    "name": "Post-colonial Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "Shakespeare": {
+    "name": "Shakespeare",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "Special Topics in Literature": {
+    "name": "Special Topics in Literature",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["English"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "Art and Code": {
+    "name": "Art and Code",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology", "Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "half"
+  },
+  "Design and Engineering": {
+    "name": "Design and Engineering",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology", "Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Robotics": {
+    "name": "Robotics",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Introduction to Programming": {
+    "name": "Introduction to Programming",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "half"
+  },
+  "Advanced Design Thinking Apprenticeship (Semester 1 or 2)": {
+    "name": "Advanced Design Thinking Apprenticeship (Semester 1 or 2)",
+    "pre": [["Design and Engineering"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 12,
+    "prestige" : 2,
+    "sem": "half"
+  },
+  "Advanced Design Thinking Apprenticeship (Year)": {
+    "name": "Advanced Design Thinking Apprenticeship (Year)",
+    "pre": [["Design and Engineering"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 12,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "AP Computer Science Principles": {
+    "name": "AP Computer Science Principles",
+    "pre": [["Introduction to Programming"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "AP Computer Science A": {
+    "name": "AP Computer Science A",
+    "pre": [["Introduction to Programming"]],
+    "con": ["Algebra 2", "Algebra 2 Foundations", "Algebra 2 with Trigonometry"],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Advanced Topics in Computer Science: Computational Circuits": {
+    "name": "Advanced Topics in Computer Science: Computational Circuits",
+    "pre": [["AP Computer Science A", "AP Computer Science Principles"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "first"
+  },
+  "Advanced Topics in Computer Science: Game Design and App Development": {
+    "name": "Advanced Topics in Computer Science: Game Design and App Development",
+    "pre": [["AP Computer Science A", "AP Computer Science Principles"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Technology"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "second"
+  },
+  "Arabic 1": {
+    "name": "Arabic 1",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Arabic 2": {
+    "name": "Arabic 2",
+    "pre": [["Arabic 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Arabic 3": {
+    "name": "Arabic 3",
+    "pre": [["Arabic 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "Arabic 4": {
+    "name": "Arabic 4",
+    "pre": [["Arabic 3"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "Arabic 5": {
+    "name": "Arabic 5",
+    "pre": [["Arabic 4"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "Advanced Arabic": {
+    "name": "Advanced Arabic",
+    "pre": [["Arabic 5"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 6,
+    "sem": "year"
+  },
+  "Chinese 1": {
+    "name": "Chinese 1",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Chinese 2": {
+    "name": "Chinese 2",
+    "pre": [["Chinese 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Chinese 3": {
+    "name": "Chinese 3",
+    "pre": [["Chinese 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "Chinese 4": {
+    "name": "Chinese 4",
+    "pre": [["Chinese 3"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "Chinese 5": {
+    "name": "Chinese 5",
+    "pre": [["Chinese 4"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "AP Chinese Language and Culture": {
+    "name": "AP Chinese Language and Culture",
+    "pre": [["Chinese 4"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 6,
+    "sem": "year"
+  },
+  "Chinese Language and Culture Seminar": {
+    "name": "Chinese Language and Culture Seminar",
+    "pre": [["AP Chinese Language and Culture", "Chinese 5"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 7,
+    "sem": "year"
+  },
+  "French 1": {
+    "name": "French 1",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "French 2": {
+    "name": "French 2",
+    "pre": [["French 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "French 3": {
+    "name": "French 3",
+    "pre": [["French 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "French 4": {
+    "name": "French 4",
+    "pre": [["French 3"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "French 5": {
+    "name": "French 5",
+    "pre": [["French 4", "AP French Language"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "French 5 (Semester 1 Only)": {
+    "name": "French 5",
+    "pre": [["French 4", "AP French Language"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "first"
+  },
+  "AP French Language": {
+    "name": "AP French Language",
+    "pre": [["French 4"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "Advanced French Literature": {
+    "name": "Advanced French Literature",
+    "pre": [["AP French Language"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 6,
+    "sem": "year"
+  },
+  "Spanish 1": {
+    "name": "Spanish 1",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Spanish 2": {
+    "name": "Spanish 2",
+    "pre": [["Spanish 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Spanish 3": {
+    "name": "Spanish 3",
+    "pre": [["Spanish 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "Spanish 4": {
+    "name": "Spanish 4",
+    "pre": [["Spanish 3"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "Spanish 5": {
+    "name": "Spanish 5",
+    "pre": [["Spanish 4", "AP Spanish Language"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "Spanish 5 (First Semester Only)": {
+    "name": "Spanish 5 (First Semester Only)",
+    "pre": [["Spanish 4", "AP Spanish Language"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "first"
+  },
+  "AP Spanish Language": {
+    "name": "AP Spanish Language",
+    "pre": [["Spanish 4"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "AP Spanish Literature and Culture": {
+    "name": "AP Spanish Literature and Culture",
+    "pre": [["AP Spanish Language"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["World Language"],
+    "gradeReq": 9,
+    "prestige" : 6,
+    "sem": "year"
+  },
+  "World Civilization 1": {
+    "name": "World Civilization 1",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "World Civilization 2": {
+    "name": "World Civilization 2",
+    "pre": [["World Civilization 1"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "United States History": {
+    "name": "United States History",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP United States History": {
+    "name": "AP United States History",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP Microeconomics and AP Macroeconomics": {
+    "name": "AP Microeconomics and AP Macroeconomics",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP European History": {
+    "name": "AP European History",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP Human Geography": {
+    "name": "AP Human Geography",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP Psychology": {
+    "name": "AP Psychology",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP Art History": {
+    "name": "AP Art History",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies", "Art"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "Human Rights Seminar": {
+    "name": "Human Rights Seminar",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "Race and Culture": {
+    "name": "Race and Culture",
+    "pre": [["World Civilization 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Social Studies", "Art"],
+    "gradeReq": 11,
+    "prestige" : 3,
+    "sem": "first"
+  },
+ }
