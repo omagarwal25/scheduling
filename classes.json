@@ -1459,4 +1459,64 @@
     "prestige" : 3,
     "sem": "half"
   },
+  "Photography Portfolio": {
+    "name": "Photography Portfolio",
+    "pre": [["Black and White Photography Studio", "Digital Photography Studio"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "second"
+  },
+  "Digital Video Editing": {
+    "name": "Digital Video Editing",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Digital Animation": {
+    "name": "Digital Animation",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Film Production": {
+    "name": "Film Production",
+    "pre": [["Digital Video Editing", "Digital Animation"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "second"
+  },
+  "Video Art: Experimental Moving Image": {
+    "name": "Video Art: Experimental Moving Image",
+    "pre": [["Digital Video Editing", "Digital Animation"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "second"
+  },
+  "Graphic Design: Print": {
+    "name": "Graphic Design: Print",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  }
  }
