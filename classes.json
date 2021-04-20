@@ -1518,5 +1518,55 @@
     "gradeReq": 9,
     "prestige" : 1,
     "sem": "first"
+  },
+  "Introduction to Publication Design": {
+    "name": "Introduction to Publication Design",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "half"
+  },
+  "Publication Design: Yearbook - The Sojourner": {
+    "name": "Publication Design: Yearbook - The Sojourner",
+    "pre": [["Introduction to Publication Design", "Beginning Journalism", "Foundations of Photography", "Graphic Design: Print"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Publications Design: Editors": {
+    "name": "Publications Design: Editors",
+    "pre": [["Publication Design: Yearbook - The Sojourner"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art", "Technology"],
+    "gradeReq": 10,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "Fashion Design": {
+    "name": "Fashion Design",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "first"
+  },
+  "Art and Culture": {
+    "name": "Art and Culture",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Art"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "second"
   }
  }
