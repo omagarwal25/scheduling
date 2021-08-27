@@ -6,8 +6,9 @@
     "post": ["Geometry with Proof", "Geometry with Algebra"],
     "credits": ["Math"],
     "gradeReq": 0,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "AlgebraOne"
   },
   "Geometry with Proof": {
     "name": "Geometry with Proof",
@@ -16,8 +17,9 @@
     "post": ["Algebra 2", "Algebra 2 with Trigonometry"],
     "credits": ["Math"],
     "gradeReq": 9,
-    "prestige" : 3,
-    "sem": "year"
+    "prestige": 3,
+    "sem": "year",
+    "specialNumber": "Geometry"
   },
   "Geometry with Algebra": {
     "name": "Geometry with Algebra",
@@ -26,8 +28,9 @@
     "post": ["Algebra 2", "Algebra 2 Foundations"],
     "credits": ["Math"],
     "gradeReq": 9,
-    "prestige" : 2,
-    "sem": "year"
+    "prestige": 2,
+    "sem": "year",
+    "specialNumber": "Geometry"
   },
   "Algebra 2 with Trigonometry": {
     "name": "Algebra 2 with Trigonometry",
@@ -36,8 +39,9 @@
     "post": [0],
     "credits": ["Math"],
     "gradeReq": 9,
-    "prestige" : 6,
-    "sem": "year"
+    "prestige": 6,
+    "sem": "year",
+    "specialNumber": "AlgebraTwo"
   },
   "Algebra 2": {
     "name": "Algebra 2",
@@ -46,8 +50,9 @@
     "post": [0],
     "credits": ["Math"],
     "gradeReq": 9,
-    "prestige" : 5,
-    "sem": "year"
+    "prestige": 5,
+    "sem": "year",
+    "specialNumber": "AlgebraTwo"
   },
   "Algebra 2 Foundations": {
     "name": "Algebra 2 Foundations",
@@ -56,8 +61,9 @@
     "post": [0],
     "credits": ["Math"],
     "gradeReq": 9,
-    "prestige" : 4,
-    "sem": "year"
+    "prestige": 4,
+    "sem": "year",
+    "specialNumber": "AlgebraTwo"
   },
   "Precalculus with Calculus": {
     "name": "Precalculus with Calculus",
@@ -65,9 +71,10 @@
     "con": [0],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 10,
+    "prestige": 10,
     "gradeReq": 9,
-    "sem": "year"
+    "sem": "year",
+    "specialNumber": "PreCalculus"
   },
   "Precalculus with Analysis": {
     "name": "Precalculus with Analysis",
@@ -75,9 +82,10 @@
     "con": [0],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 9,
+    "prestige": 9,
     "gradeReq": 9,
-    "sem": "year"
+    "sem": "year",
+    "specialNumber": "PreCalculus"
   },
   "Precalculus with Statistics": {
     "name": "Precalculus with Statistics",
@@ -85,9 +93,10 @@
     "con": [0],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 8,
+    "prestige": 8,
     "gradeReq": 9,
-    "sem": "year"
+    "sem": "year",
+    "specialNumber": "PreCalculus"
   },
   "Financial Mathematics": {
     "name": "Financial Mathematics",
@@ -95,7 +104,7 @@
     "con": [0],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 7,
+    "prestige": 7,
     "gradeReq": 9,
     "sem": "year"
   },
@@ -105,9 +114,10 @@
     "con": [0],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 13,
+    "prestige": 13,
     "gradeReq": 9,
-    "sem": "year"
+    "sem": "year",
+    "specialNumber": "Calculus"
   },
   "AP Calculus BC": {
     "name": "AP Calculus BC",
@@ -115,9 +125,10 @@
     "con": [0],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 14,
+    "prestige": 14,
     "gradeReq": 9,
-    "sem": "year"
+    "sem": "year",
+    "specialNumber": "Calculus"
   },
   "Calculus": {
     "name": "Calculus",
@@ -125,18 +136,21 @@
     "con": [0],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 11,
+    "prestige": 11,
     "gradeReq": 9,
-    "sem": "year"
+    "sem": "year",
+    "specialNumber": "Useless Calculus"
   },
   "AP Statistics": {
     "name": "AP Statistics",
-    "pre": [["Precalculus with Statistics", "Precalculus with Analysis", "Precalculus with Calculus", "Algebra 2", "Algebra 2 Foundations", "Algebra 2 with Trigonometry"]],
+    "pre": [
+      ["Algebra 2", "Algebra 2 Foundations", "Algebra 2 with Trigonometry"]
+    ],
     "con": [0],
     "post": [0],
     "credits": ["Math"],
     "gradeReq": 9,
-    "prestige" : 12,
+    "prestige": 12,
     "sem": "year"
   },
   "Advanced Math Seminar": {
@@ -145,7 +159,7 @@
     "con": ["AP Calculus BC"],
     "post": [0],
     "credits": ["Math"],
-    "prestige" : 15,
+    "prestige": 15,
     "gradeReq": 9,
     "sem": "year"
   },
@@ -156,8 +170,9 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "Science 9"
   },
   "Science 10": {
     "name": "Science 10",
@@ -166,8 +181,9 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 10,
-    "prestige" : 2,
-    "sem": "year"
+    "prestige": 2,
+    "sem": "year",
+    "specialNumber": "Science 10"
   },
   "AP Biology": {
     "name": "AP Biology",
@@ -176,7 +192,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "AP Chemistry": {
@@ -186,7 +202,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "AP Environmental Science": {
@@ -196,7 +212,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "AP Physics 1": {
@@ -206,8 +222,9 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 3,
-    "sem": "year"
+    "prestige": 3,
+    "sem": "year",
+    "specialNumber": "AP Physics 1"
   },
   "AP Physics 2": {
     "name": "AP Physics 2",
@@ -216,7 +233,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "year"
   },
   "AP Physics C": {
@@ -226,7 +243,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "year"
   },
   "Ecology: Environmental Studies": {
@@ -236,8 +253,9 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 9,
-    "prestige" : 4,
-    "sem": "first"
+    "prestige": 4,
+    "sem": "first",
+    "specialNumber": "Ecology One"
   },
   "Ecology: Expeditions": {
     "name": "Ecology: Expeditions",
@@ -246,7 +264,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "second"
   },
   "Topics in Biology: Modular Genetics": {
@@ -256,7 +274,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "first"
   },
   "Topics in Biology: Evolutionary Biology": {
@@ -266,7 +284,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "second"
   },
   "Topics in Chemistry: Modern Materials": {
@@ -276,7 +294,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "first"
   },
   "Topics in Chemistry: Synthesizing our Worlds": {
@@ -286,7 +304,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "second"
   },
   "Topics in Physics: The Engineered Environment": {
@@ -296,7 +314,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "first"
   },
   "Topics in Physics: Modeling and Simulation": {
@@ -306,7 +324,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "second"
   },
   "Astrophysics": {
@@ -316,7 +334,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "first"
   },
   "Earth, Planets and Space Exploration": {
@@ -326,7 +344,7 @@
     "post": [0],
     "credits": ["Science"],
     "gradeReq": 11,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "second"
   },
   "Beginning Journalism": {
@@ -336,8 +354,9 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "first"
+    "prestige": 1,
+    "sem": "first",
+    "specialNumber": "Begin Journalism"
   },
   "Advanced Journalism": {
     "name": "Advanced Journalism",
@@ -346,8 +365,9 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 9,
-    "prestige" : 2,
-    "sem": "year"
+    "prestige": 2,
+    "sem": "year",
+    "specialNumber": "Advanced Journalism"
   },
   "Advanced Journalism: Editors": {
     "name": "Advanced Journalism: Editors",
@@ -356,7 +376,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "English 9": {
@@ -366,8 +386,9 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "Eng 9"
   },
   "English 10": {
     "name": "English 10",
@@ -376,8 +397,9 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 10,
-    "prestige" : 2,
-    "sem": "year"
+    "prestige": 2,
+    "sem": "year",
+    "specialNumber": "Eng 10"
   },
   "American Literature": {
     "name": "American Literature",
@@ -386,7 +408,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "half"
   },
   "Asian Literature": {
@@ -396,7 +418,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "British Literature": {
@@ -406,7 +428,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Craft of Writing": {
@@ -416,7 +438,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Dramatic Literature and Performance": {
@@ -426,7 +448,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Gender in Literature": {
@@ -436,7 +458,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Individual and Society in Literature": {
@@ -446,7 +468,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Literature and Film": {
@@ -456,7 +478,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "half"
   },
   "Literacy Non-fiction": {
@@ -466,7 +488,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Literature and Art": {
@@ -476,7 +498,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Middle Eastern, Afghan and Pakstani Literature": {
@@ -486,7 +508,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Mythology": {
@@ -496,7 +518,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Poetry": {
@@ -506,7 +528,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "half"
   },
   "Post-colonial Literature": {
@@ -516,7 +538,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Shakespeare": {
@@ -526,7 +548,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Special Topics in Literature": {
@@ -536,7 +558,7 @@
     "post": [0],
     "credits": ["English"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Art and Code": {
@@ -546,8 +568,9 @@
     "post": [0],
     "credits": ["Technology", "Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "half"
+    "prestige": 1,
+    "sem": "half",
+    "specialNumber": "CSD 1"
   },
   "Design and Engineering": {
     "name": "Design and Engineering",
@@ -556,8 +579,9 @@
     "post": [0],
     "credits": ["Technology", "Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "first"
+    "prestige": 1,
+    "sem": "first",
+    "specialNumber": "CSD 2"
   },
   "Robotics": {
     "name": "Robotics",
@@ -566,7 +590,7 @@
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "Introduction to Programming": {
@@ -576,8 +600,9 @@
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "half"
+    "prestige": 1,
+    "sem": "half",
+    "specialNumber": "CSD 1"
   },
   "Advanced Design Thinking Apprenticeship (Semester 1 or 2)": {
     "name": "Advanced Design Thinking Apprenticeship (Semester 1 or 2)",
@@ -586,7 +611,7 @@
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 12,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Advanced Design Thinking Apprenticeship (Year)": {
@@ -596,7 +621,7 @@
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 12,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "AP Computer Science Principles": {
@@ -606,18 +631,24 @@
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 9,
-    "prestige" : 2,
-    "sem": "year"
+    "prestige": 2,
+    "sem": "year",
+    "specialNumber": "CSD 3"
   },
   "AP Computer Science A": {
     "name": "AP Computer Science A",
     "pre": [["Introduction to Programming"]],
-    "con": ["Algebra 2", "Algebra 2 Foundations", "Algebra 2 with Trigonometry"],
+    "con": [
+      "Algebra 2",
+      "Algebra 2 Foundations",
+      "Algebra 2 with Trigonometry"
+    ],
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 9,
-    "prestige" : 2,
-    "sem": "year"
+    "prestige": 2,
+    "sem": "year",
+    "specialNumber": "CSD 3"
   },
   "Advanced Topics in Computer Science: Computational Circuits": {
     "name": "Advanced Topics in Computer Science: Computational Circuits",
@@ -626,7 +657,7 @@
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Advanced Topics in Computer Science: Game Design and App Development": {
@@ -636,7 +667,7 @@
     "post": [0],
     "credits": ["Technology"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Arabic 1": {
@@ -646,7 +677,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "Arabic 2": {
@@ -656,7 +687,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "Arabic 3": {
@@ -666,7 +697,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "Arabic 4": {
@@ -676,7 +707,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "Arabic 5": {
@@ -686,7 +717,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "year"
   },
   "Advanced Arabic": {
@@ -696,7 +727,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 6,
+    "prestige": 6,
     "sem": "year"
   },
   "Chinese 1": {
@@ -706,7 +737,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "Chinese 2": {
@@ -716,7 +747,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "Chinese 3": {
@@ -726,7 +757,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "Chinese 4": {
@@ -736,7 +767,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "Chinese 5": {
@@ -746,8 +777,9 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
-    "sem": "year"
+    "prestige": 5,
+    "sem": "year",
+    "specialNumber": "Chinese 5"
   },
   "AP Chinese Language and Culture": {
     "name": "AP Chinese Language and Culture",
@@ -756,8 +788,9 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 6,
-    "sem": "year"
+    "prestige": 6,
+    "sem": "year",
+    "specialNumber": "Chinese 5"
   },
   "Chinese Language and Culture Seminar": {
     "name": "Chinese Language and Culture Seminar",
@@ -766,7 +799,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 7,
+    "prestige": 7,
     "sem": "year"
   },
   "French 1": {
@@ -776,7 +809,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "French 2": {
@@ -786,7 +819,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "French 3": {
@@ -796,7 +829,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "French 4": {
@@ -806,7 +839,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "French 5": {
@@ -816,7 +849,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "year"
   },
   "French 5 (Semester 1 Only)": {
@@ -826,7 +859,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "first"
   },
   "AP French Language": {
@@ -836,7 +869,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "year"
   },
   "Advanced French Literature": {
@@ -846,7 +879,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 6,
+    "prestige": 6,
     "sem": "year"
   },
   "Spanish 1": {
@@ -856,7 +889,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "Spanish 2": {
@@ -866,7 +899,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "Spanish 3": {
@@ -876,7 +909,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "Spanish 4": {
@@ -886,7 +919,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "Spanish 5": {
@@ -896,7 +929,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "year"
   },
   "Spanish 5 (First Semester Only)": {
@@ -906,7 +939,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "first"
   },
   "AP Spanish Language": {
@@ -916,7 +949,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 5,
+    "prestige": 5,
     "sem": "year"
   },
   "AP Spanish Literature and Culture": {
@@ -926,7 +959,7 @@
     "post": [0],
     "credits": ["World Language"],
     "gradeReq": 9,
-    "prestige" : 6,
+    "prestige": 6,
     "sem": "year"
   },
   "World Civilization 1": {
@@ -936,7 +969,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "World Civilization 2": {
@@ -946,7 +979,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 10,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "United States History": {
@@ -956,8 +989,9 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
-    "sem": "year"
+    "prestige": 3,
+    "sem": "year",
+    "specialNumber": "US History"
   },
   "AP United States History": {
     "name": "AP United States History",
@@ -966,8 +1000,9 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
-    "sem": "year"
+    "prestige": 3,
+    "sem": "year",
+    "specialNumber": "US History"
   },
   "AP Microeconomics and AP Macroeconomics": {
     "name": "AP Microeconomics and AP Macroeconomics",
@@ -976,7 +1011,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "AP European History": {
@@ -986,7 +1021,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "AP Human Geography": {
@@ -996,7 +1031,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "AP Psychology": {
@@ -1006,7 +1041,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "AP Art History": {
@@ -1016,7 +1051,7 @@
     "post": [0],
     "credits": ["Social Studies", "Art"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "Human Rights Seminar": {
@@ -1026,7 +1061,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "Race and Culture": {
@@ -1036,7 +1071,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 10,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Topics in Government and Law": {
@@ -1046,7 +1081,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 10,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Contemporary Global History": {
@@ -1056,7 +1091,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Global Issues": {
@@ -1066,7 +1101,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Introduction to Philosophy": {
@@ -1076,7 +1111,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "first"
   },
   "Introduction to Applied Ethics": {
@@ -1086,7 +1121,7 @@
     "post": [0],
     "credits": ["Social Studies"],
     "gradeReq": 11,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "second"
   },
   "Concert Band": {
@@ -1096,8 +1131,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "Music 1"
   },
   "Chamber Orchestra": {
     "name": "Chamber Orchestra",
@@ -1106,8 +1142,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "Music 1"
   },
   "Concert Choir": {
     "name": "Concert Choir",
@@ -1116,17 +1153,26 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "Music 1"
   },
   "AP Music Theory": {
     "name": "AP Music Theory",
-    "pre": [["Concert Band", "Chamber Orchestra", "Concert Choir", "Music Appreciation", "Digital Music"]],
+    "pre": [
+      [
+        "Concert Band",
+        "Chamber Orchestra",
+        "Concert Choir",
+        "Music Appreciation",
+        "Digital Music"
+      ]
+    ],
     "con": [0],
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "Music Appreciation": {
@@ -1136,8 +1182,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "first"
+    "prestige": 1,
+    "sem": "first",
+    "specialNumber": "Music 1"
   },
   "Digital Music": {
     "name": "Digital Music",
@@ -1146,8 +1193,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "second"
+    "prestige": 1,
+    "sem": "second",
+    "specialNumber": "Music 1"
   },
   "Double Concentration: Choir and Orchestra": {
     "name": "Double Concentration: Choir and Orchestra",
@@ -1156,8 +1204,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "Music 1"
   },
   "Acting": {
     "name": "Acting",
@@ -1166,8 +1215,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "year"
+    "prestige": 1,
+    "sem": "year",
+    "specialNumber": "Acting 1"
   },
   "Advanced Acting: Play Production": {
     "name": "Advanced Acting: Play Production",
@@ -1176,7 +1226,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "Acting: Character, Movement and Voice": {
@@ -1186,8 +1236,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "first"
+    "prestige": 1,
+    "sem": "first",
+    "specialNumber": "Acting 1"
   },
   "Acting: Physical Theater": {
     "name": "Acting: Physical Theater",
@@ -1196,8 +1247,9 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "second"
+    "prestige": 1,
+    "sem": "second",
+    "specialNumber": "Acting 1"
   },
   "Dance": {
     "name": "Dance",
@@ -1206,7 +1258,7 @@
     "post": [0],
     "credits": ["Art", "PE"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "half"
   },
   "Well-being 9": {
@@ -1216,7 +1268,7 @@
     "post": [0],
     "credits": ["PE"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "Health: Well-being 10": {
@@ -1226,7 +1278,7 @@
     "post": [0],
     "credits": ["PE"],
     "gradeReq": 10,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Physical Education 2: Well-being 10": {
@@ -1236,7 +1288,7 @@
     "post": [0],
     "credits": ["PE"],
     "gradeReq": 10,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Sports Leadership: Well-being 10": {
@@ -1246,7 +1298,7 @@
     "post": [0],
     "credits": ["PE"],
     "gradeReq": 10,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "second"
   },
   "Lifetime Fitness: Well-being 10": {
@@ -1256,7 +1308,7 @@
     "post": [0],
     "credits": ["PE"],
     "gradeReq": 10,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Dance: Well-being 10": {
@@ -1266,7 +1318,7 @@
     "post": [0],
     "credits": ["PE", "Art"],
     "gradeReq": 10,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Peer Leadership": {
@@ -1276,7 +1328,7 @@
     "post": [0],
     "credits": ["Extra"],
     "gradeReq": 12,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "first"
   },
   "Peer Leadership (Year)": {
@@ -1286,7 +1338,7 @@
     "post": [0],
     "credits": ["Extra"],
     "gradeReq": 12,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "Teaching Apprenticeship": {
@@ -1296,7 +1348,7 @@
     "post": [0],
     "credits": ["Extra"],
     "gradeReq": 12,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "second"
   },
   "Advanced Independent Research Colloquium": {
@@ -1306,7 +1358,7 @@
     "post": [0],
     "credits": ["Extra"],
     "gradeReq": 11,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "year"
   },
   "Community Action Seminar": {
@@ -1316,7 +1368,7 @@
     "post": [0],
     "credits": ["Extra"],
     "gradeReq": 11,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "first"
   },
   "Drawing and Painting 1a": {
@@ -1326,7 +1378,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "first"
   },
   "Drawing and Painting 1b": {
@@ -1336,7 +1388,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "second"
   },
   "Drawing and Painting 2": {
@@ -1346,7 +1398,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "Advanced Studio Art": {
@@ -1356,7 +1408,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "AP Studio Art": {
@@ -1366,7 +1418,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "3D Studio Art 1": {
@@ -1376,7 +1428,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "half"
   },
   "3D Studio Art 2": {
@@ -1386,7 +1438,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Advanced 3D Studio Art": {
@@ -1396,7 +1448,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "AP 3D Studio Art": {
@@ -1406,7 +1458,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "year"
   },
   "Foundations of Photography": {
@@ -1416,7 +1468,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "half"
   },
   "Black and White Photography": {
@@ -1426,7 +1478,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Digital Photography": {
@@ -1436,7 +1488,7 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "half"
   },
   "Digital Photography Studio": {
@@ -1446,7 +1498,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "half"
   },
   "Black and White Photography Studio": {
@@ -1456,17 +1508,19 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "half"
   },
   "Photography Portfolio": {
     "name": "Photography Portfolio",
-    "pre": [["Black and White Photography Studio", "Digital Photography Studio"]],
+    "pre": [
+      ["Black and White Photography Studio", "Digital Photography Studio"]
+    ],
     "con": [0],
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 4,
+    "prestige": 4,
     "sem": "second"
   },
   "Digital Video Editing": {
@@ -1476,8 +1530,9 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "first"
+    "prestige": 1,
+    "sem": "first",
+    "specialNumber": "Editing 1"
   },
   "Digital Animation": {
     "name": "Digital Animation",
@@ -1486,8 +1541,9 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 1,
-    "sem": "first"
+    "prestige": 1,
+    "sem": "first",
+    "specialNumber": "Editing 1"
   },
   "Film Production": {
     "name": "Film Production",
@@ -1496,7 +1552,7 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "second"
   },
   "Video Art: Experimental Moving Image": {
@@ -1506,7 +1562,7 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "second"
   },
   "Graphic Design: Print": {
@@ -1516,7 +1572,7 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "first"
   },
   "Introduction to Publication Design": {
@@ -1526,17 +1582,24 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "half"
   },
   "Publication Design: Yearbook - The Sojourner": {
     "name": "Publication Design: Yearbook - The Sojourner",
-    "pre": [["Introduction to Publication Design", "Beginning Journalism", "Foundations of Photography", "Graphic Design: Print"]],
+    "pre": [
+      [
+        "Introduction to Publication Design",
+        "Beginning Journalism",
+        "Foundations of Photography",
+        "Graphic Design: Print"
+      ]
+    ],
     "con": [0],
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 9,
-    "prestige" : 2,
+    "prestige": 2,
     "sem": "year"
   },
   "Publications Design: Editors": {
@@ -1546,7 +1609,7 @@
     "post": [0],
     "credits": ["Art", "Technology"],
     "gradeReq": 10,
-    "prestige" : 3,
+    "prestige": 3,
     "sem": "year"
   },
   "Fashion Design": {
@@ -1556,7 +1619,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "first"
   },
   "Art and Culture": {
@@ -1566,7 +1629,7 @@
     "post": [0],
     "credits": ["Art"],
     "gradeReq": 9,
-    "prestige" : 1,
+    "prestige": 1,
     "sem": "second"
   }
- }
+}
